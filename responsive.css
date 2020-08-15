@@ -1,0 +1,71 @@
+.container-a {
+   max-width: 100%;
+}
+.container-a h1{
+   float: none;
+   text-align: center;
+}
+.container-a ul{
+   float: none;
+   margin-top: 1rem;
+   /* border: 1px solid red; */
+}
+.container-a ul li{
+   float: none;
+   text-align: center;
+}
+
+/* Main */
+
+.main {
+   min-height: calc(100vh - 14rem);
+   padding-top: 4rem;
+
+}
+.container-b {
+   max-width: 100%;
+   padding: 0 1rem;
+}
+
+/* Annonces */
+
+.container-c {
+   max-width: 100%;
+}
+.annonce-item {
+   max-width: 100%;
+   float: none;
+}
+.item1 {
+   margin-bottom: 5rem;
+}
+
+/* Reservation */
+
+.container-d {
+   max-width: 100%;
+}
+
+/* Location */
+.location,.contact {
+   padding-top: 10rem;
+   height: calc(100vh - 17rem);
+}
+.container-location {
+   width: 100%;
+}
+.map,.location-text {
+   float: none;
+   width: 100%;
+   text-align: center;
+}
+.map {
+   margin-bottom: 4rem;
+}
+
+/* Contact */
+
+.container-contact {
+   max-width: 100%;
+   padding: 0 2rem;
+}

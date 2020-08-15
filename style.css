@@ -1,0 +1,270 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html,
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 10px;
+}
+a {
+   text-decoration: none;
+   color: #222;
+}
+ul {
+   list-style-type: none;
+}
+.active {
+   background-color: #444;
+}
+.center {
+   margin: 0 auto;
+}
+.my_10 {
+   margin-bottom: 1rem;
+}
+.my_20 {
+   margin-bottom: 2rem;
+}
+.line {
+   border-bottom: 0.3px solid #bbb;
+   margin: 0 0 1.5rem 0;
+}
+.pink {
+   background-color: purple;
+}
+.green {
+   background-color: green;
+   
+}
+.light-btn {
+   display: block;
+   max-width: 11rem;
+   padding: 1rem;
+   /* border: .3px solid #222; */
+   border-radius: 7rem;
+   font-weight: bold;
+   font-size: 1.3rem;
+   text-transform: uppercase;
+   background-color: white;
+   transition: all .3s;
+}
+.light-btn:hover {
+   background-color: #222;
+   color: white;
+}
+.dark-btn {
+   display: block;
+   max-width: 11rem;
+   padding: 1rem;
+   border-radius: 7rem;
+   font-weight: bold;
+   font-size: 1.3rem;
+   text-transform: uppercase;
+   background-color: #222;
+   color: white;
+   transition: all .3s;
+}
+.dark-btn:hover {
+   border: .3px solid #222;
+   background-color: white;
+   color: #222;
+   
+}
+
+/* Header */
+
+header {
+   background-color: #222;
+   overflow: auto;
+}
+.container-a {
+   max-width: 70%;
+   line-height: 1.5rem;
+}
+.container-a h1{
+   float: left;
+   padding: 1.5rem 1rem;
+}
+.container-a h1 a{
+   color: white;
+   text-transform: uppercase;
+}
+.container-a ul{
+   float: right;
+}
+.container-a ul li{
+   float: left;
+   padding: 1.5rem;
+   transition: background .3s;
+}
+.container-a ul li:hover{
+   background-color: #444;
+}
+.container-a ul li a {
+   color: white;
+   font-size: 1.3rem;
+}
+
+/* Main */
+
+.main {
+   min-height: calc(100vh - 4.6rem);
+   background: url(/pictures/cafe.jpg) center center/cover;
+   padding-top: 20rem;
+}
+.container-b {
+   max-width: 40%;
+   /* background-color: teal; */
+   text-align: center;
+}
+.slogan {
+   color: white;
+   font-size: 5rem;
+}
+.separator {
+   border-bottom: 6px solid white;
+   width: 40%;
+}
+.container-b p {
+   font-size: 1.4rem;
+   line-height: 2.5rem;
+   letter-spacing: .4px;
+   margin-bottom: 5rem;
+   color: white;
+}
+
+/* Annonces */
+
+.annonce {
+   padding: 7rem 1rem;
+   overflow: auto;
+}
+.container-c {
+   max-width: 46%;
+}
+.annonce-item {
+   max-width: 42%;
+   text-align: center;
+}
+.fas {
+   font-size: 3.5rem;
+}
+.annonce-item h3 {
+   font-size: 1.6rem;
+}
+.annonce-item p {
+   font-size: 1.2rem;
+   line-height: 1.8rem;
+   letter-spacing: .3px;
+}
+.item1 {
+   float: left;
+}
+.item2 {
+   float: right;
+}
+
+/* Image */
+
+.image {
+   height: 27rem;
+   background: url(/pictures/person.jpg) top center/cover;
+}
+
+/* Réservation */
+
+.reservation {
+   padding: 7rem 1rem;
+}
+.container-d {
+   max-width: 30%;
+   text-align: center;
+}
+.container-d h2 {
+   font-size: 2rem;
+}
+.container-d p {
+   font-size: 1.25rem;
+   letter-spacing: .2px;
+}
+
+/* Footer */
+
+footer {
+   background: #222;
+   text-align: center;
+   padding: 3rem;
+}
+footer p {
+   color: white;
+}
+
+/* Location */
+
+.location,.contact {
+   height: calc(100vh - 12rem);
+   padding-top: 15rem;
+}
+.container-location {
+   width: 50%;
+   padding: 0 1rem;
+   /* border: .5px solid red; */
+   overflow: auto;
+}
+.map {
+   width: 40%;
+   height: 20rem;
+   float: left;
+   border-radius: .5rem;
+   background: url(/pictures/map.png) center center/cover;
+}
+.location-text {
+   float: right;
+   width: 55%;
+}
+.location-text h2{
+   font-size: 2rem;
+}
+.location-text p {
+   font-size: 1.3rem;
+   padding: .5rem 0;
+}
+.metro {
+   font-weight: bold;
+}
+.location p span {
+   display: inline-block;
+   padding: 0 .6rem ;
+   border-radius: 50%;
+   color: white;
+}
+
+/* Contact */
+
+.container-contact {
+   max-width: 30%;
+}
+.container-contact h2{
+   font-size: 2rem;
+   margin-bottom: 1rem;
+}
+label {
+   font-size: 1.2rem;
+   font-weight: bold;
+   display: block; 
+}
+input,textarea {
+   margin: .5rem 0 2rem 0;
+   width: 100%;
+   padding: .8rem;
+   border: .3px solid #bbb;
+   color: #333;
+   font-size: 1.2rem;
+}
+button {
+   border: .3px solid #bbb;
+}
+
+
