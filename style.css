@@ -111,7 +111,7 @@ header {
 
 .main {
    min-height: calc(100vh - 4.6rem);
-   background: url(/pictures/cafe.jpg) center center/cover;
+   background: url(pictures/cafe.jpg) center center/cover;
    padding-top: 20rem;
 }
 .container-b {
